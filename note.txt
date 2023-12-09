@@ -1,0 +1,19 @@
+Redis is a in memory database that can be used as a cache or a database. 
+- It is very fast and can be used to store data structures like lists, sets, sorted sets, hashes, strings, bitmaps and hyperloglogs. 
+- It is also very easy to use and has a lot of clients for different languages. It is also very easy to install and setup. 
+- It is also very easy to scale and can be used as a distributed cache. It is also very
+
+
+--CLIENT 
+the first thing we need to do is crreate connection to Redis
+to create the conection we need to create object redis.clients
+
+--COMMAND
+golang redis is very easy to use because it has a lot of commands that we can use to interact with redis (from client)
+
+--STRING
+data type that often used in REDIS is strings
+- Set
+- SetEx
+- MGet
+- ETC
