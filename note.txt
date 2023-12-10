@@ -10,10 +10,4 @@ to create the conection we need to create object redis.clients
 
 --COMMAND
 golang redis is very easy to use because it has a lot of commands that we can use to interact with redis (from client)
-
---STRING
-data type that often used in REDIS is strings
-- Set
-- SetEx
-- MGet
-- ETC
+we can use the command by using the object that we have created before

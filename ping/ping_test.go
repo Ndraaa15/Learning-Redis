@@ -13,10 +13,11 @@ var client = redis.NewClient(&redis.Options{
 	DB:  0,
 })
 
-// Ping is a function that pings the redis server
+
 var ctx = context.Background()
 
-func Ping(t *testing.T) {
+// Ping is a function that pings the redis server
+func TestPing(t *testing.T) {
 	result, err := client.Ping(ctx).Result()
 	assert.Nil(t, err)
 	assert.Equal(t, "PONG", result)
